@@ -21,10 +21,11 @@
  */
 function getStringLength(value) {
   if (typeof value !== 'string') {
-    return 0;
+    return false;
   }
   return value.length;
 }
+
 /**
  * Returns true if the value is a string, otherwise returns false.
  *
